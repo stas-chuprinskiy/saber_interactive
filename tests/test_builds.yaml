@@ -1,0 +1,10 @@
+builds:
+- name: build_0
+  tasks: []
+- name: build_1
+  tasks:
+  - task_0
+- name: build_2
+  tasks:
+  - task_3
+  - task_2

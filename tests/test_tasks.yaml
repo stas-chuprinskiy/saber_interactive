@@ -1,0 +1,12 @@
+tasks:
+- name: task_0
+  dependencies: []
+- name: task_1
+  dependencies: []
+- name: task_2
+  dependencies:
+  - task_1
+- name: task_3
+  dependencies:
+  - task_0
+  - task_2
